@@ -29,6 +29,7 @@ Orange can also be installed from the Python Package Index. You may need additio
 ```bash
 pip install PyQt5 PyQtWebEngine
 pip install orange3
+pip3 install Orange3-Associate
 ```
 
 # Bonus

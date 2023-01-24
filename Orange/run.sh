@@ -61,3 +61,4 @@ install_pip() {
 install_pip PyQt5
 install_pip PyQtWebEngine
 install_pip Orange3
+install_pip Orange3-Associate
