@@ -1,374 +1,374 @@
-;Bande;CP;Peuplement;Ajout_phyto_30J;Ajout_ferti_30J;Temp_quali;Pluie_quali;year;Saison;Pic_O3;Pic_J45;Pic_J182
-0;acs;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;hiver;1;0;1
-1;pn;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;hiver;1;0;0
-2;bi;ble;ble;0.0;0.0;moyenne;sup a la moy;2018;hiver;1;0;0
-3;bio;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;hiver;0;0;0
-4;elev;ble;ble;0.0;0.0;moyenne;sup a la moy;2018;hiver;1;0;0
-5;ref;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;hiver;1;0;0
-6;acs;ble;ble;0.0;1.0;basse;inf a la moy;2018;hiver;0;0;0
-7;pn;ble;ble;0.0;1.0;basse;inf a la moy;2018;hiver;0;0;0
-8;bi;ble;ble;0.0;0.0;basse;inf a la moy;2018;hiver;0;0;0
-9;bio;ble;ble;0.0;1.0;basse;inf a la moy;2018;hiver;0;0;0
-10;elev;ble;ble;0.0;1.0;basse;inf a la moy;2018;hiver;0;0;0
-11;ref;ble;ble;0.0;1.0;basse;inf a la moy;2018;hiver;0;0;0
-12;acs;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-13;pn;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-14;bi;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;1
-15;bio;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;0;1
-16;elev;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-17;ref;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-18;acs;ble;ble;0.0;1.0;moyenne;inf a la moy;2018;printemps;0;1;1
-19;pn;ble;ble;0.0;1.0;moyenne;inf a la moy;2018;printemps;0;1;1
-20;bi;ble;ble;0.0;1.0;moyenne;inf a la moy;2018;printemps;1;1;1
-21;bio;ble;ble;0.0;1.0;moyenne;inf a la moy;2018;printemps;0;1;1
-22;elev;ble;ble;0.0;1.0;moyenne;inf a la moy;2018;printemps;0;1;1
-23;ref;ble;ble;0.0;1.0;moyenne;inf a la moy;2018;printemps;0;1;1
-24;acs;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-25;pn;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;0;1;1
-26;bi;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-27;bio;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-28;elev;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-29;ref;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-30;acs;ble;ble;1.0;1.0;moyenne;absence;2018;printemps;0;0;1
-31;pn;ble;ble;1.0;1.0;moyenne;absence;2018;printemps;0;1;1
-32;bi;ble;ble;0.0;1.0;moyenne;absence;2018;printemps;1;1;1
-33;bio;ble;ble;0.0;0.0;moyenne;absence;2018;printemps;1;1;1
-34;elev;ble;ble;1.0;1.0;moyenne;absence;2018;printemps;1;1;1
-35;ref;ble;ble;1.0;1.0;moyenne;absence;2018;printemps;1;1;1
-36;acs;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;1;0;0
-37;pn;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;1;1;1
-38;bi;ble;ble;0.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;0
-39;bio;ble;ble;0.0;0.0;moyenne;sup a la moy;2018;printemps;0;0;0
-40;elev;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;0
-41;ref;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;0
-42;acs;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;0
-43;pn;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;0
-44;bi;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;1;0;1
-45;bio;ble;ble;0.0;0.0;moyenne;sup a la moy;2018;printemps;0;0;0
-46;elev;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;0;0;0
-47;ref;ble;ble;1.0;1.0;moyenne;sup a la moy;2018;printemps;1;0;0
-48;acs;ble;ble;1.0;1.0;elevee;sup a la moy;2018;printemps;0;0;0
-49;pn;ble;ble;1.0;1.0;elevee;sup a la moy;2018;printemps;0;0;0
-50;bi;ble;ble;1.0;1.0;elevee;sup a la moy;2018;printemps;0;0;0
-51;bio;ble;ble;0.0;0.0;elevee;sup a la moy;2018;printemps;0;0;0
-52;elev;ble;ble;1.0;1.0;elevee;sup a la moy;2018;printemps;1;1;0
-53;ref;ble;ble;1.0;1.0;elevee;sup a la moy;2018;printemps;0;0;0
-54;acs;ble;ble;1.0;0.0;moyenne;sup a la moy;2018;printemps;1;1;0
-55;pn;ble;ble;1.0;0.0;moyenne;sup a la moy;2018;printemps;1;1;0
-56;bi;ble;ble;1.0;0.0;moyenne;sup a la moy;2018;printemps;1;0;0
-57;bio;ble;ble;0.0;0.0;moyenne;sup a la moy;2018;printemps;1;1;0
-58;elev;ble;ble;1.0;0.0;moyenne;sup a la moy;2018;printemps;1;1;0
-59;ref;ble;ble;1.0;0.0;moyenne;sup a la moy;2018;printemps;1;1;0
-60;acs;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-61;pn;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-62;bi;ble;ble;1.0;0.0;elevee;absence;2018;ete;0;0;0
-63;bio;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-64;elev;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-65;ref;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-66;acs;ble;ble;0.0;0.0;elevee;absence;2018;ete;1;0;0
-67;pn;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-68;bi;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-69;bio;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-70;elev;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-71;ref;ble;ble;0.0;0.0;elevee;absence;2018;ete;0;0;0
-72;acs;escourgeon;sol_nu;0.0;0.0;elevee;sup a la moy;2018;ete;0;0;0
-73;pn;ble;sol_nu;0.0;0.0;elevee;sup a la moy;2018;ete;1;1;0
-74;bi;orge_de_printemps;sol_nu;0.0;0.0;elevee;sup a la moy;2018;ete;1;1;0
-75;bio;triticale;sol_nu;0.0;0.0;elevee;sup a la moy;2018;ete;1;1;0
-76;elev;escourgeon;sol_nu;0.0;0.0;elevee;sup a la moy;2018;ete;1;0;0
-77;ref;orge_de_printemps;sol_nu;0.0;0.0;elevee;sup a la moy;2018;ete;1;1;0
-78;acs;escourgeon;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;1;1;0
-79;pn;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-80;bi;orge_de_printemps;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-81;bio;triticale;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;1;1;0
-82;elev;escourgeon;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-83;ref;orge_de_printemps;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-84;acs;escourgeon;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-85;pn;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-86;bi;orge_de_printemps;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;1;1;0
-87;bio;triticale;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-88;elev;escourgeon;sol_nu;0.0;1.0;moyenne;inf a la moy;2018;automne;0;0;0
-89;ref;orge_de_printemps;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;1;0;0
-90;acs;escourgeon;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-91;pn;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;1;1;0
-92;bi;orge_de_printemps;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-93;bio;triticale;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;0;0;0
-94;elev;escourgeon;sol_nu;0.0;1.0;moyenne;inf a la moy;2018;automne;1;1;1
-95;ref;orge_de_printemps;sol_nu;0.0;0.0;moyenne;inf a la moy;2018;automne;1;1;0
-96;acs;escourgeon;escourgeon;1.0;0.0;elevee;absence;2018;automne;1;1;0
-97;pn;ble;ble;1.0;0.0;elevee;absence;2018;automne;0;0;0
-98;bi;orge_de_printemps;sol_nu;0.0;0.0;elevee;absence;2018;automne;1;1;0
-99;bio;triticale;sol_nu;0.0;0.0;elevee;absence;2018;automne;0;0;0
-100;elev;escourgeon;escourgeon;1.0;1.0;elevee;absence;2018;automne;1;1;1
-101;ref;orge_de_printemps;sol_nu;0.0;0.0;elevee;absence;2018;automne;0;0;0
-102;acs;escourgeon;escourgeon;1.0;0.0;basse;sup a la moy;2018;automne;0;0;0
-103;pn;ble;ble;1.0;0.0;basse;sup a la moy;2018;automne;0;1;0
-104;bi;orge_de_printemps;sol_nu;0.0;0.0;basse;sup a la moy;2018;automne;0;0;0
-105;bio;triticale;sol_nu;0.0;0.0;basse;sup a la moy;2018;automne;0;0;0
-106;elev;escourgeon;escourgeon;1.0;0.0;basse;sup a la moy;2018;automne;0;0;0
-107;ref;orge_de_printemps;sol_nu;0.0;0.0;basse;sup a la moy;2018;automne;1;1;0
-108;acs;escourgeon;escourgeon;1.0;0.0;moyenne;sup a la moy;2018;automne;1;1;0
-109;pn;ble;ble;0.0;0.0;moyenne;sup a la moy;2018;automne;1;1;0
-110;bi;orge_de_printemps;sol_nu;0.0;0.0;moyenne;sup a la moy;2018;automne;1;1;0
-111;bio;triticale;sol_nu;0.0;0.0;moyenne;sup a la moy;2018;automne;1;1;1
-112;elev;escourgeon;escourgeon;0.0;0.0;moyenne;sup a la moy;2018;automne;1;0;0
-113;ref;orge_de_printemps;sol_nu;0.0;0.0;moyenne;sup a la moy;2018;automne;1;0;0
-114;acs;escourgeon;escourgeon;0.0;0.0;basse;absence;2019;hiver;0;0;0
-115;pn;ble;ble;0.0;0.0;basse;absence;2019;hiver;0;0;0
-116;bi;orge_de_printemps;sol_nu;0.0;0.0;basse;absence;2019;hiver;0;1;0
-117;bio;triticale;sol_nu;0.0;0.0;basse;absence;2019;hiver;1;1;1
-118;elev;escourgeon;escourgeon;0.0;0.0;basse;absence;2019;hiver;0;0;0
-119;ref;orge_de_printemps;sol_nu;0.0;0.0;basse;absence;2019;hiver;0;0;0
-120;acs;escourgeon;escourgeon;0.0;0.0;basse;inf a la moy;2019;hiver;1;0;0
-121;pn;ble;ble;0.0;0.0;basse;inf a la moy;2019;hiver;0;0;0
-122;bi;orge_de_printemps;sol_nu;0.0;0.0;basse;inf a la moy;2019;hiver;0;0;0
-123;bio;triticale;sol_nu;0.0;0.0;basse;inf a la moy;2019;hiver;0;0;0
-124;elev;escourgeon;escourgeon;0.0;0.0;basse;inf a la moy;2019;hiver;0;0;0
-125;ref;orge_de_printemps;sol_nu;0.0;0.0;basse;inf a la moy;2019;hiver;0;0;0
-126;acs;escourgeon;escourgeon;0.0;1.0;moyenne;absence;2019;hiver;0;0;0
-127;pn;ble;ble;0.0;1.0;moyenne;absence;2019;hiver;1;0;0
-128;elev;escourgeon;escourgeon;0.0;1.0;moyenne;absence;2019;hiver;1;1;1
-129;acs;escourgeon;escourgeon;0.0;1.0;moyenne;inf a la moy;2019;hiver;0;0;1
-130;pn;ble;ble;0.0;1.0;moyenne;inf a la moy;2019;hiver;0;1;0
-131;bi;orge_de_printemps;sol_nu;1.0;0.0;moyenne;inf a la moy;2019;hiver;1;0;1
-132;bio;triticale;triticale;0.0;1.0;moyenne;inf a la moy;2019;hiver;0;0;0
-133;elev;escourgeon;escourgeon;0.0;1.0;moyenne;inf a la moy;2019;hiver;0;0;0
-134;ref;orge_de_printemps;sol_nu;1.0;0.0;moyenne;inf a la moy;2019;hiver;1;1;1
-135;acs;escourgeon;escourgeon;0.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;1
-136;pn;ble;ble;0.0;1.0;moyenne;sup a la moy;2019;hiver;0;1;1
-137;bi;orge_de_printemps;sol_nu;1.0;0.0;moyenne;sup a la moy;2019;hiver;0;0;1
-138;bio;triticale;triticale;0.0;1.0;moyenne;sup a la moy;2019;hiver;0;1;1
-139;elev;escourgeon;escourgeon;0.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;0
-140;ref;orge_de_printemps;sol_nu;1.0;0.0;moyenne;sup a la moy;2019;hiver;0;1;1
-141;acs;escourgeon;escourgeon;0.0;1.0;moyenne;sup a la moy;2019;hiver;0;1;1
-142;pn;ble;ble;0.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;1
-143;bi;orge_de_printemps;orge_de_printemps;1.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;1
-144;bio;triticale;triticale;0.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;1
-145;elev;escourgeon;escourgeon;0.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;0
-146;ref;orge_de_printemps;orge_de_printemps;1.0;1.0;moyenne;sup a la moy;2019;hiver;1;1;1
-147;acs;escourgeon;escourgeon;0.0;1.0;moyenne;absence;2019;printemps;1;1;1
-148;pn;ble;ble;0.0;1.0;moyenne;absence;2019;printemps;0;0;0
-149;bi;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;absence;2019;printemps;0;1;1
-150;bio;triticale;triticale;0.0;1.0;moyenne;absence;2019;printemps;0;1;1
-151;elev;escourgeon;escourgeon;0.0;0.0;moyenne;absence;2019;printemps;0;0;0
-152;ref;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;absence;2019;printemps;0;0;1
-153;acs;escourgeon;escourgeon;0.0;1.0;moyenne;inf a la moy;2019;printemps;0;0;0
-154;pn;ble;ble;0.0;1.0;moyenne;inf a la moy;2019;printemps;1;0;0
-155;bi;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;inf a la moy;2019;printemps;0;0;0
-156;bio;triticale;triticale;0.0;0.0;moyenne;inf a la moy;2019;printemps;0;0;0
-157;elev;escourgeon;escourgeon;0.0;1.0;moyenne;inf a la moy;2019;printemps;1;1;0
-158;ref;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;inf a la moy;2019;printemps;0;0;0
-159;acs;escourgeon;escourgeon;0.0;1.0;moyenne;absence;2019;printemps;1;0;0
-160;pn;ble;ble;0.0;1.0;moyenne;absence;2019;printemps;0;0;0
-161;bi;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;absence;2019;printemps;0;0;0
-162;bio;triticale;triticale;0.0;0.0;moyenne;absence;2019;printemps;1;0;0
-163;elev;escourgeon;escourgeon;1.0;1.0;moyenne;absence;2019;printemps;0;0;0
-164;ref;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;absence;2019;printemps;0;0;0
-165;acs;escourgeon;escourgeon;1.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-166;pn;ble;ble;1.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-167;bi;orge_de_printemps;orge_de_printemps;0.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-168;bio;triticale;triticale;0.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-169;elev;escourgeon;escourgeon;1.0;1.0;moyenne;sup a la moy;2019;printemps;0;0;0
-170;ref;orge_de_printemps;orge_de_printemps;0.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-171;acs;escourgeon;escourgeon;1.0;0.0;moyenne;inf a la moy;2019;printemps;1;0;0
-172;pn;ble;ble;1.0;1.0;moyenne;inf a la moy;2019;printemps;1;1;1
-173;bi;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;inf a la moy;2019;printemps;1;1;1
-174;bio;triticale;triticale;0.0;0.0;moyenne;inf a la moy;2019;printemps;1;0;0
-175;elev;escourgeon;escourgeon;1.0;1.0;moyenne;inf a la moy;2019;printemps;1;0;0
-176;ref;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;inf a la moy;2019;printemps;1;1;1
-177;acs;escourgeon;escourgeon;1.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-178;pn;ble;ble;1.0;1.0;moyenne;sup a la moy;2019;printemps;0;1;1
-179;bi;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;sup a la moy;2019;printemps;0;0;0
-180;bio;triticale;triticale;0.0;0.0;moyenne;sup a la moy;2019;printemps;1;1;1
-181;elev;escourgeon;escourgeon;1.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-182;ref;orge_de_printemps;orge_de_printemps;0.0;1.0;moyenne;sup a la moy;2019;printemps;0;0;0
-183;acs;escourgeon;escourgeon;1.0;0.0;moyenne;sup a la moy;2019;printemps;0;0;0
-184;pn;ble;ble;1.0;1.0;moyenne;sup a la moy;2019;printemps;1;1;1
-185;bi;orge_de_printemps;orge_de_printemps;1.0;1.0;moyenne;sup a la moy;2019;printemps;1;0;0
-186;bio;triticale;triticale;0.0;0.0;moyenne;sup a la moy;2019;printemps;0;1;0
-187;elev;escourgeon;escourgeon;1.0;0.0;moyenne;sup a la moy;2019;printemps;1;1;0
-188;ref;orge_de_printemps;orge_de_printemps;1.0;1.0;moyenne;sup a la moy;2019;printemps;1;1;1
-189;acs;escourgeon;escourgeon;1.0;0.0;moyenne;absence;2019;printemps;1;1;0
-190;pn;ble;ble;1.0;0.0;moyenne;absence;2019;printemps;0;0;1
-191;bi;orge_de_printemps;orge_de_printemps;1.0;0.0;moyenne;absence;2019;printemps;1;1;0
-192;bio;triticale;triticale;0.0;0.0;moyenne;absence;2019;printemps;0;1;0
-193;elev;escourgeon;escourgeon;1.0;0.0;moyenne;absence;2019;printemps;0;0;0
-194;ref;orge_de_printemps;orge_de_printemps;1.0;0.0;moyenne;absence;2019;printemps;1;0;0
-195;acs;escourgeon;escourgeon;0.0;0.0;moyenne;absence;2019;printemps;0;0;0
-196;pn;ble;ble;0.0;0.0;moyenne;absence;2019;printemps;0;0;1
-197;bi;orge_de_printemps;orge_de_printemps;1.0;0.0;moyenne;absence;2019;printemps;0;0;0
-198;bio;triticale;triticale;0.0;0.0;moyenne;absence;2019;printemps;0;1;1
-199;elev;escourgeon;escourgeon;0.0;0.0;moyenne;absence;2019;printemps;0;0;0
-200;ref;orge_de_printemps;orge_de_printemps;1.0;0.0;moyenne;absence;2019;printemps;0;0;0
-201;acs;colza;colza_fenugrec_gesse;1.0;0.0;elevee;absence;2019;ete;1;1;0
-202;pn;colza;colza;1.0;0.0;elevee;absence;2019;ete;1;1;1
-203;bi;colza;colza_ge._fe._le.ve._tr.;1.0;0.0;elevee;absence;2019;ete;1;1;1
-204;bio;feverolle;sol_nu;0.0;0.0;elevee;absence;2019;ete;1;1;1
-205;elev;colza;colza;1.0;0.0;elevee;absence;2019;ete;1;1;1
-206;ref;colza;colza_ge._fe._le.ve.;1.0;0.0;elevee;absence;2019;ete;1;1;1
-207;acs;colza;colza_fenugrec_gesse;1.0;0.0;moyenne;sup a la moy;2019;automne;0;1;0
-208;pn;colza;colza;1.0;0.0;moyenne;sup a la moy;2019;automne;1;1;0
-209;bi;colza;colza_ge._fe._le.ve._tr.;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-210;bio;feverolle;sol_nu;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-211;elev;colza;colza;1.0;0.0;moyenne;sup a la moy;2019;automne;1;0;0
-212;ref;colza;colza_ge._fe._le.ve.;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-213;acs;colza;colza_fenugrec_gesse;1.0;0.0;moyenne;inf a la moy;2019;automne;0;0;0
-214;pn;colza;colza;0.0;0.0;moyenne;inf a la moy;2019;automne;1;1;0
-215;bi;colza;colza_ge._fe._le.ve._tr.;0.0;0.0;moyenne;inf a la moy;2019;automne;0;0;0
-216;bio;feverolle;sol_nu;0.0;0.0;moyenne;inf a la moy;2019;automne;0;0;0
-217;elev;colza;colza;0.0;0.0;moyenne;inf a la moy;2019;automne;0;0;0
-218;ref;colza;colza_ge._fe._le.ve.;0.0;0.0;moyenne;inf a la moy;2019;automne;0;0;0
-219;acs;colza;colza_fenugrec_gesse;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-220;pn;colza;colza;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-221;bi;colza;colza_ge._fe._le.ve._tr.;0.0;0.0;moyenne;sup a la moy;2019;automne;1;1;0
-222;bio;feverolle;feverolle;0.0;0.0;moyenne;sup a la moy;2019;automne;1;1;1
-223;elev;colza;colza;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-224;ref;colza;colza_ge._fe._le.ve.;0.0;0.0;moyenne;sup a la moy;2019;automne;0;0;0
-225;acs;colza;colza_fenugrec_gesse;0.0;0.0;moyenne;sup a la moy;2019;hiver;1;1;0
-226;pn;colza;colza;0.0;0.0;moyenne;sup a la moy;2019;hiver;1;1;0
-227;bi;colza;colza_ge._fe._le.ve._tr.;0.0;0.0;moyenne;sup a la moy;2019;hiver;0;1;0
-228;bio;feverolle;feverolle;0.0;0.0;moyenne;sup a la moy;2019;hiver;0;1;0
-229;elev;colza;colza;0.0;0.0;moyenne;sup a la moy;2019;hiver;1;1;0
-230;ref;colza;colza_ge._fe._le.ve.;0.0;0.0;moyenne;sup a la moy;2019;hiver;0;0;0
-231;acs;colza;colza;1.0;0.0;basse;sup a la moy;2020;hiver;0;0;0
-232;pn;colza;colza;1.0;0.0;basse;sup a la moy;2020;hiver;0;0;0
-233;bi;colza;colza_ge._fe._le.ve._tr.;0.0;0.0;basse;sup a la moy;2020;hiver;1;0;0
-234;bio;feverolle;feverolle;0.0;0.0;basse;sup a la moy;2020;hiver;0;0;0
-235;elev;colza;colza;1.0;0.0;basse;sup a la moy;2020;hiver;0;0;0
-236;ref;colza;colza;1.0;0.0;basse;sup a la moy;2020;hiver;0;0;0
-237;acs;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;0;0;0
-238;pn;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;0;0;0
-239;bi;colza;colza_ge._fe._le.ve._tr.;0.0;1.0;moyenne;sup a la moy;2020;hiver;0;0;0
-240;bio;feverolle;feverolle;0.0;0.0;moyenne;sup a la moy;2020;hiver;0;0;0
-241;elev;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;0;0;0
-242;ref;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;0;0;0
-243;acs;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;1;1;1
-244;pn;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;1;1;1
-245;bi;colza;colza_ge._fe._le.ve._tr.;0.0;1.0;moyenne;sup a la moy;2020;hiver;1;1;1
-246;bio;feverolle;feverolle;0.0;0.0;moyenne;sup a la moy;2020;hiver;0;0;0
-247;elev;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;1;1;1
-248;ref;colza;colza;0.0;1.0;moyenne;sup a la moy;2020;hiver;1;1;1
-249;acs;colza;colza;0.0;1.0;basse;sup a la moy;2020;hiver;0;1;1
-250;pn;colza;colza;0.0;1.0;basse;sup a la moy;2020;hiver;0;1;1
-251;bi;colza;colza_ge._fe._le.ve._tr.;0.0;1.0;basse;sup a la moy;2020;hiver;0;1;1
-252;bio;feverolle;feverolle;0.0;0.0;basse;sup a la moy;2020;hiver;1;1;1
-253;elev;colza;colza;0.0;1.0;basse;sup a la moy;2020;hiver;1;1;1
-254;ref;colza;colza;0.0;1.0;basse;sup a la moy;2020;hiver;0;1;1
-255;acs;colza;colza;1.0;1.0;moyenne;inf a la moy;2020;hiver;1;1;1
-256;pn;colza;colza;1.0;1.0;moyenne;inf a la moy;2020;hiver;1;1;1
-257;bi;colza;colza;1.0;1.0;moyenne;inf a la moy;2020;hiver;1;1;1
-258;bio;feverolle;feverolle;0.0;0.0;moyenne;inf a la moy;2020;hiver;0;0;0
-259;elev;colza;colza;1.0;1.0;moyenne;inf a la moy;2020;hiver;0;1;1
-260;ref;colza;colza;1.0;1.0;moyenne;inf a la moy;2020;hiver;0;1;1
-261;acs;colza;colza;1.0;1.0;moyenne;absence;2020;hiver;0;0;1
-262;pn;colza;colza;1.0;1.0;moyenne;absence;2020;hiver;1;1;1
-263;bi;colza;colza;1.0;1.0;moyenne;absence;2020;hiver;1;1;1
-264;bio;feverolle;feverolle;0.0;0.0;moyenne;absence;2020;hiver;1;1;1
-265;elev;colza;colza;1.0;0.0;moyenne;absence;2020;hiver;1;0;1
-266;ref;colza;colza;1.0;1.0;moyenne;absence;2020;hiver;1;1;1
-267;acs;colza;colza;1.0;1.0;basse;absence;2020;printemps;0;0;0
-268;pn;colza;colza;1.0;1.0;basse;absence;2020;printemps;0;0;0
-269;bi;colza;colza;1.0;1.0;basse;absence;2020;printemps;0;0;0
-270;bio;feverolle;feverolle;0.0;0.0;basse;absence;2020;printemps;0;0;0
-271;elev;colza;colza;1.0;0.0;basse;absence;2020;printemps;0;0;0
-272;ref;colza;colza;1.0;1.0;basse;absence;2020;printemps;0;0;0
-273;acs;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;0;0;0
-274;pn;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;0;0;0
-275;bi;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;0;0;0
-276;bio;feverolle;feverolle;0.0;0.0;moyenne;absence;2020;printemps;1;1;1
-277;elev;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;1;0;0
-278;ref;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;0;0;0
-279;acs;colza;colza;0.0;0.0;moyenne;absence;2020;printemps;0;0;0
-280;pn;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;1;1;0
-281;bi;colza;colza;0.0;0.0;moyenne;absence;2020;printemps;0;0;0
-282;bio;feverolle;feverolle;0.0;0.0;moyenne;absence;2020;printemps;1;1;0
-283;elev;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;0;0;0
-284;ref;colza;colza;1.0;0.0;moyenne;absence;2020;printemps;0;0;0
-285;acs;colza;colza;0.0;0.0;elevee;absence;2020;ete;1;1;0
-286;pn;colza;colza;0.0;0.0;elevee;absence;2020;ete;0;0;0
-287;bi;colza;colza;0.0;0.0;elevee;absence;2020;ete;1;1;0
-288;bio;feverolle;feverolle;0.0;0.0;elevee;absence;2020;ete;0;0;0
-289;elev;colza;colza;0.0;0.0;elevee;absence;2020;ete;1;1;0
-290;ref;colza;colza;0.0;0.0;elevee;absence;2020;ete;1;1;0
-291;acs;colza;colza;0.0;0.0;moyenne;sup a la moy;2020;ete;0;0;0
-292;pn;colza;colza;0.0;0.0;moyenne;sup a la moy;2020;ete;0;0;0
-293;bi;colza;colza;0.0;0.0;moyenne;sup a la moy;2020;ete;0;1;0
-294;bio;ble;sol_nu;0.0;0.0;moyenne;sup a la moy;2020;ete;1;1;0
-295;elev;colza;colza;0.0;0.0;moyenne;sup a la moy;2020;ete;0;0;0
-296;ref;colza;colza;0.0;0.0;moyenne;sup a la moy;2020;ete;0;0;0
-297;acs;ble;repousse_de_colza;1.0;0.0;moyenne;inf a la moy;2020;automne;1;1;1
-298;pn;ble;sol_nu;1.0;0.0;moyenne;inf a la moy;2020;automne;0;0;0
-299;bi;colza;colza;0.0;0.0;moyenne;inf a la moy;2020;automne;0;0;0
-300;bio;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2020;automne;0;0;0
-301;elev;ble;sol_nu;1.0;0.0;moyenne;inf a la moy;2020;automne;0;0;0
-302;ref;ble;sol_nu;1.0;0.0;moyenne;inf a la moy;2020;automne;0;0;1
-303;acs;ble;ble;1.0;0.0;moyenne;inf a la moy;2020;automne;0;0;1
-304;pn;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2020;automne;1;1;1
-305;bi;ble;ble;1.0;0.0;moyenne;inf a la moy;2020;automne;1;1;1
-306;bio;ble;ble;1.0;0.0;moyenne;inf a la moy;2020;automne;1;1;1
-307;elev;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2020;automne;1;1;1
-308;ref;ble;sol_nu;0.0;0.0;moyenne;inf a la moy;2020;automne;1;1;1
-309;acs;ble;ble;1.0;0.0;basse;inf a la moy;2020;automne;0;0;1
-310;pn;ble;ble;1.0;0.0;basse;inf a la moy;2020;automne;0;0;0
-311;bi;ble;ble;0.0;0.0;basse;inf a la moy;2020;automne;1;0;1
-312;bio;ble;ble;0.0;0.0;basse;inf a la moy;2020;automne;0;0;1
-313;elev;ble;ble;1.0;0.0;basse;inf a la moy;2020;automne;0;0;0
-314;ref;ble;ble;1.0;0.0;basse;inf a la moy;2020;automne;0;0;0
-315;acs;ble;ble;0.0;0.0;basse;inf a la moy;2021;hiver;0;0;1
-316;pn;ble;ble;0.0;0.0;basse;inf a la moy;2021;hiver;0;0;0
-317;bi;ble;ble;0.0;0.0;basse;inf a la moy;2021;hiver;0;0;0
-318;bio;ble;ble;0.0;0.0;basse;inf a la moy;2021;hiver;0;0;0
-319;elev;mais;inter-cultures;0.0;1.0;basse;inf a la moy;2021;hiver;0;0;0
-320;ref;ble;ble;0.0;0.0;basse;inf a la moy;2021;hiver;0;0;0
-321;acs;ble;ble;0.0;1.0;basse;absence;2021;hiver;1;0;1
-322;pn;ble;ble;0.0;1.0;basse;absence;2021;hiver;1;0;0
-323;bi;ble;ble;0.0;0.0;basse;absence;2021;hiver;0;0;0
-324;bio;ble;ble;0.0;1.0;basse;absence;2021;hiver;1;0;0
-325;elev;ble;ble;0.0;1.0;basse;absence;2021;hiver;1;0;1
-326;ref;ble;ble;0.0;1.0;basse;absence;2021;hiver;1;1;0
-327;acs;ble;ble;0.0;1.0;basse;sup a la moy;2021;hiver;0;0;0
-328;pn;ble;ble;0.0;1.0;basse;sup a la moy;2021;hiver;0;0;0
-329;bi;ble;ble;0.0;1.0;basse;sup a la moy;2021;hiver;1;1;1
-330;bio;ble;ble;0.0;0.0;basse;sup a la moy;2021;hiver;1;1;0
-331;elev;ble;ble;0.0;1.0;basse;sup a la moy;2021;hiver;1;1;1
-332;ref;ble;ble;0.0;1.0;basse;sup a la moy;2021;hiver;0;1;0
-333;acs;ble;ble;0.0;1.0;basse;inf a la moy;2021;printemps;1;1;1
-334;pn;ble;ble;0.0;1.0;basse;inf a la moy;2021;printemps;1;1;0
-335;bi;ble;ble;0.0;1.0;basse;inf a la moy;2021;printemps;1;1;1
-336;bio;ble;ble;0.0;0.0;basse;inf a la moy;2021;printemps;1;1;1
-337;elev;ble;ble;0.0;1.0;basse;inf a la moy;2021;printemps;1;1;1
-338;ref;ble;ble;0.0;1.0;basse;inf a la moy;2021;printemps;1;1;1
-339;acs;ble;ble;1.0;0.0;basse;sup a la moy;2021;printemps;0;1;1
-340;pn;ble;ble;1.0;0.0;basse;sup a la moy;2021;printemps;1;1;0
-341;bi;ble;ble;0.0;0.0;basse;sup a la moy;2021;printemps;1;1;1
-342;bio;ble;ble;0.0;0.0;basse;sup a la moy;2021;printemps;0;0;0
-343;elev;ble;ble;1.0;0.0;basse;sup a la moy;2021;printemps;1;1;1
-344;ref;ble;ble;1.0;0.0;basse;sup a la moy;2021;printemps;0;0;0
-345;acs;ble;ble;1.0;0.0;moyenne;absence;2021;printemps;0;0;0
-346;pn;ble;ble;1.0;0.0;moyenne;absence;2021;printemps;0;0;0
-347;bi;ble;ble;0.0;0.0;moyenne;absence;2021;printemps;0;0;0
-348;bio;ble;ble;0.0;0.0;moyenne;absence;2021;printemps;0;0;0
-349;elev;ble;ble;1.0;0.0;moyenne;absence;2021;printemps;0;0;0
-350;ref;ble;ble;1.0;0.0;moyenne;absence;2021;printemps;0;0;0
-351;acs;ble;ble;0.0;1.0;moyenne;inf a la moy;2021;printemps;1;0;0
-352;pn;ble;ble;1.0;1.0;moyenne;inf a la moy;2021;printemps;1;0;0
-353;bi;ble;ble;1.0;1.0;moyenne;inf a la moy;2021;printemps;1;0;0
-354;bio;ble;ble;0.0;0.0;moyenne;inf a la moy;2021;printemps;0;0;0
-355;elev;ble;ble;1.0;1.0;moyenne;inf a la moy;2021;printemps;1;1;0
-356;ref;ble;ble;1.0;1.0;moyenne;inf a la moy;2021;printemps;0;0;0
-357;acs;ble;ble;1.0;0.0;elevee;sup a la moy;2021;printemps;1;1;0
-358;pn;ble;ble;1.0;0.0;elevee;sup a la moy;2021;printemps;1;1;1
-359;bi;ble;ble;0.0;0.0;elevee;sup a la moy;2021;printemps;0;0;0
-360;bio;ble;ble;0.0;0.0;elevee;sup a la moy;2021;printemps;0;0;1
-361;elev;ble;ble;1.0;0.0;elevee;sup a la moy;2021;printemps;0;0;0
-362;ref;ble;ble;1.0;0.0;elevee;sup a la moy;2021;printemps;1;1;1
-363;acs;ble;ble;0.0;0.0;elevee;sup a la moy;2021;ete;0;0;0
-364;pn;ble;ble;0.0;0.0;elevee;sup a la moy;2021;ete;0;0;0
-365;bi;ble;ble;0.0;0.0;elevee;sup a la moy;2021;ete;1;1;0
-366;bio;ble;ble;0.0;0.0;elevee;sup a la moy;2021;ete;1;1;1
-367;elev;ble;ble;0.0;0.0;elevee;sup a la moy;2021;ete;1;1;0
-368;ref;ble;ble;0.0;0.0;elevee;sup a la moy;2021;ete;0;0;1
-369;elev;colza;sol_nu;0.0;0.0;elevee;sup a la moy;2019;ete;0;0;0
-370;ref;colza;sol_nu;0.0;0.0;elevee;sup a la moy;2019;ete;0;0;0
-371;elev;colza;colza;1.0;0.0;moyenne;absence;2019;ete;0;1;1
-372;elev;colza;colza;1.0;0.0;moyenne;absence;2019;ete;0;0;0
+;Temp_quali;Pluie_quali;Pluie_ON;Saison;Pic_O3;Pic_J45;Pic_J182
+0;moyenne;elevee;pluie;hiver;True;False;True
+1;moyenne;elevee;pluie;hiver;True;False;False
+2;moyenne;elevee;pluie;hiver;True;False;False
+3;moyenne;elevee;pluie;hiver;False;False;False
+4;moyenne;elevee;pluie;hiver;True;False;False
+5;moyenne;elevee;pluie;hiver;True;False;False
+6;basse;moyenne;pas_pluie;hiver;False;False;False
+7;basse;moyenne;pas_pluie;hiver;False;False;False
+8;basse;moyenne;pas_pluie;hiver;False;False;False
+9;basse;moyenne;pas_pluie;hiver;False;False;False
+10;basse;moyenne;pas_pluie;hiver;False;False;False
+11;basse;moyenne;pas_pluie;hiver;False;False;False
+12;moyenne;elevee;pluie;printemps;True;True;True
+13;moyenne;elevee;pluie;printemps;True;True;True
+14;moyenne;elevee;pluie;printemps;False;False;True
+15;moyenne;elevee;pluie;printemps;True;False;True
+16;moyenne;elevee;pluie;printemps;True;True;True
+17;moyenne;elevee;pluie;printemps;True;True;True
+18;moyenne;moyenne;pluie;printemps;False;True;True
+19;moyenne;moyenne;pluie;printemps;False;True;True
+20;moyenne;moyenne;pluie;printemps;True;True;True
+21;moyenne;moyenne;pluie;printemps;False;True;True
+22;moyenne;moyenne;pluie;printemps;False;True;True
+23;moyenne;moyenne;pluie;printemps;False;True;True
+24;moyenne;elevee;pluie;printemps;True;True;True
+25;moyenne;elevee;pluie;printemps;False;True;True
+26;moyenne;elevee;pluie;printemps;True;True;True
+27;moyenne;elevee;pluie;printemps;True;True;True
+28;moyenne;elevee;pluie;printemps;True;True;True
+29;moyenne;elevee;pluie;printemps;True;True;True
+30;moyenne;moyenne;pas_pluie;printemps;False;False;True
+31;moyenne;moyenne;pas_pluie;printemps;False;True;True
+32;moyenne;moyenne;pas_pluie;printemps;True;True;True
+33;moyenne;moyenne;pas_pluie;printemps;True;True;True
+34;moyenne;moyenne;pas_pluie;printemps;True;True;True
+35;moyenne;moyenne;pas_pluie;printemps;True;True;True
+36;moyenne;elevee;pluie;printemps;True;False;False
+37;moyenne;elevee;pluie;printemps;True;True;True
+38;moyenne;elevee;pluie;printemps;False;False;False
+39;moyenne;elevee;pluie;printemps;False;False;False
+40;moyenne;elevee;pluie;printemps;False;False;False
+41;moyenne;elevee;pluie;printemps;False;False;False
+42;moyenne;elevee;pluie;printemps;False;False;False
+43;moyenne;elevee;pluie;printemps;False;False;False
+44;moyenne;elevee;pluie;printemps;True;False;True
+45;moyenne;elevee;pluie;printemps;False;False;False
+46;moyenne;elevee;pluie;printemps;False;False;False
+47;moyenne;elevee;pluie;printemps;True;False;False
+48;elevee;elevee;pluie;printemps;False;False;False
+49;elevee;elevee;pluie;printemps;False;False;False
+50;elevee;elevee;pluie;printemps;False;False;False
+51;elevee;elevee;pluie;printemps;False;False;False
+52;elevee;elevee;pluie;printemps;True;True;False
+53;elevee;elevee;pluie;printemps;False;False;False
+54;moyenne;elevee;pluie;printemps;True;True;False
+55;moyenne;elevee;pluie;printemps;True;True;False
+56;moyenne;elevee;pluie;printemps;True;False;False
+57;moyenne;elevee;pluie;printemps;True;True;False
+58;moyenne;elevee;pluie;printemps;True;True;False
+59;moyenne;elevee;pluie;printemps;True;True;False
+60;elevee;basse;;ete;False;False;False
+61;elevee;basse;;ete;False;False;False
+62;elevee;basse;;ete;False;False;False
+63;elevee;basse;;ete;False;False;False
+64;elevee;basse;;ete;False;False;False
+65;elevee;basse;;ete;False;False;False
+66;elevee;basse;;ete;True;False;False
+67;elevee;basse;;ete;False;False;False
+68;elevee;basse;;ete;False;False;False
+69;elevee;basse;;ete;False;False;False
+70;elevee;basse;;ete;False;False;False
+71;elevee;basse;;ete;False;False;False
+72;elevee;elevee;pluie;ete;False;False;False
+73;elevee;elevee;pluie;ete;True;True;False
+74;elevee;elevee;pluie;ete;True;True;False
+75;elevee;elevee;pluie;ete;True;True;False
+76;elevee;elevee;pluie;ete;True;False;False
+77;elevee;elevee;pluie;ete;True;True;False
+78;moyenne;elevee;pluie;automne;True;True;False
+79;moyenne;elevee;pluie;automne;False;False;False
+80;moyenne;elevee;pluie;automne;False;False;False
+81;moyenne;elevee;pluie;automne;True;True;False
+82;moyenne;elevee;pluie;automne;False;False;False
+83;moyenne;elevee;pluie;automne;False;False;False
+84;moyenne;moyenne;pluie;automne;False;False;False
+85;moyenne;moyenne;pluie;automne;False;False;False
+86;moyenne;moyenne;pluie;automne;True;True;False
+87;moyenne;moyenne;pluie;automne;False;False;False
+88;moyenne;moyenne;pluie;automne;False;False;False
+89;moyenne;moyenne;pluie;automne;True;False;False
+90;moyenne;moyenne;pas_pluie;automne;False;False;False
+91;moyenne;moyenne;pas_pluie;automne;True;True;False
+92;moyenne;moyenne;pas_pluie;automne;False;False;False
+93;moyenne;moyenne;pas_pluie;automne;False;False;False
+94;moyenne;moyenne;pas_pluie;automne;True;True;True
+95;moyenne;moyenne;pas_pluie;automne;True;True;False
+96;elevee;basse;;automne;True;True;False
+97;elevee;basse;;automne;False;False;False
+98;elevee;basse;;automne;True;True;False
+99;elevee;basse;;automne;False;False;False
+100;elevee;basse;;automne;True;True;True
+101;elevee;basse;;automne;False;False;False
+102;basse;elevee;pluie;automne;False;False;False
+103;basse;elevee;pluie;automne;False;True;False
+104;basse;elevee;pluie;automne;False;False;False
+105;basse;elevee;pluie;automne;False;False;False
+106;basse;elevee;pluie;automne;False;False;False
+107;basse;elevee;pluie;automne;True;True;False
+108;moyenne;elevee;pluie;automne;True;True;False
+109;moyenne;elevee;pluie;automne;True;True;False
+110;moyenne;elevee;pluie;automne;True;True;False
+111;moyenne;elevee;pluie;automne;True;True;True
+112;moyenne;elevee;pluie;automne;True;False;False
+113;moyenne;elevee;pluie;automne;True;False;False
+114;basse;moyenne;pas_pluie;hiver;False;False;False
+115;basse;moyenne;pas_pluie;hiver;False;False;False
+116;basse;moyenne;pas_pluie;hiver;False;True;False
+117;basse;moyenne;pas_pluie;hiver;True;True;True
+118;basse;moyenne;pas_pluie;hiver;False;False;False
+119;basse;moyenne;pas_pluie;hiver;False;False;False
+120;basse;moyenne;pluie;hiver;True;False;False
+121;basse;moyenne;pluie;hiver;False;False;False
+122;basse;moyenne;pluie;hiver;False;False;False
+123;basse;moyenne;pluie;hiver;False;False;False
+124;basse;moyenne;pluie;hiver;False;False;False
+125;basse;moyenne;pluie;hiver;False;False;False
+126;moyenne;basse;;hiver;False;False;False
+127;moyenne;basse;;hiver;True;False;False
+128;moyenne;basse;;hiver;True;True;True
+129;moyenne;moyenne;pluie;hiver;False;False;True
+130;moyenne;moyenne;pluie;hiver;False;True;False
+131;moyenne;moyenne;pluie;hiver;True;False;True
+132;moyenne;moyenne;pluie;hiver;False;False;False
+133;moyenne;moyenne;pluie;hiver;False;False;False
+134;moyenne;moyenne;pluie;hiver;True;True;True
+135;moyenne;elevee;pluie;hiver;True;True;True
+136;moyenne;elevee;pluie;hiver;False;True;True
+137;moyenne;elevee;pluie;hiver;False;False;True
+138;moyenne;elevee;pluie;hiver;False;True;True
+139;moyenne;elevee;pluie;hiver;True;True;False
+140;moyenne;elevee;pluie;hiver;False;True;True
+141;moyenne;elevee;pluie;hiver;False;True;True
+142;moyenne;elevee;pluie;hiver;True;True;True
+143;moyenne;elevee;pluie;hiver;True;True;True
+144;moyenne;elevee;pluie;hiver;True;True;True
+145;moyenne;elevee;pluie;hiver;True;True;False
+146;moyenne;elevee;pluie;hiver;True;True;True
+147;moyenne;moyenne;pas_pluie;printemps;True;True;True
+148;moyenne;moyenne;pas_pluie;printemps;False;False;False
+149;moyenne;moyenne;pas_pluie;printemps;False;True;True
+150;moyenne;moyenne;pas_pluie;printemps;False;True;True
+151;moyenne;moyenne;pas_pluie;printemps;False;False;False
+152;moyenne;moyenne;pas_pluie;printemps;False;False;True
+153;moyenne;elevee;pluie;printemps;False;False;False
+154;moyenne;elevee;pluie;printemps;True;False;False
+155;moyenne;elevee;pluie;printemps;False;False;False
+156;moyenne;elevee;pluie;printemps;False;False;False
+157;moyenne;elevee;pluie;printemps;True;True;False
+158;moyenne;elevee;pluie;printemps;False;False;False
+159;moyenne;moyenne;pas_pluie;printemps;True;False;False
+160;moyenne;moyenne;pas_pluie;printemps;False;False;False
+161;moyenne;moyenne;pas_pluie;printemps;False;False;False
+162;moyenne;moyenne;pas_pluie;printemps;True;False;False
+163;moyenne;moyenne;pas_pluie;printemps;False;False;False
+164;moyenne;moyenne;pas_pluie;printemps;False;False;False
+165;moyenne;elevee;pluie;printemps;False;False;False
+166;moyenne;elevee;pluie;printemps;False;False;False
+167;moyenne;elevee;pluie;printemps;False;False;False
+168;moyenne;elevee;pluie;printemps;False;False;False
+169;moyenne;elevee;pluie;printemps;False;False;False
+170;moyenne;elevee;pluie;printemps;False;False;False
+171;moyenne;moyenne;pluie;printemps;True;False;False
+172;moyenne;moyenne;pluie;printemps;True;True;True
+173;moyenne;moyenne;pluie;printemps;True;True;True
+174;moyenne;moyenne;pluie;printemps;True;False;False
+175;moyenne;moyenne;pluie;printemps;True;False;False
+176;moyenne;moyenne;pluie;printemps;True;True;True
+177;moyenne;elevee;pluie;printemps;False;False;False
+178;moyenne;elevee;pluie;printemps;False;True;True
+179;moyenne;elevee;pluie;printemps;False;False;False
+180;moyenne;elevee;pluie;printemps;True;True;True
+181;moyenne;elevee;pluie;printemps;False;False;False
+182;moyenne;elevee;pluie;printemps;False;False;False
+183;moyenne;elevee;pluie;printemps;False;False;False
+184;moyenne;elevee;pluie;printemps;True;True;True
+185;moyenne;elevee;pluie;printemps;True;False;False
+186;moyenne;elevee;pluie;printemps;False;True;False
+187;moyenne;elevee;pluie;printemps;True;True;False
+188;moyenne;elevee;pluie;printemps;True;True;True
+189;moyenne;basse;;printemps;True;True;False
+190;moyenne;basse;;printemps;False;False;True
+191;moyenne;basse;;printemps;True;True;False
+192;moyenne;basse;;printemps;False;True;False
+193;moyenne;basse;;printemps;False;False;False
+194;moyenne;basse;;printemps;True;False;False
+195;moyenne;basse;;printemps;False;False;False
+196;moyenne;basse;;printemps;False;False;True
+197;moyenne;basse;;printemps;False;False;False
+198;moyenne;basse;;printemps;False;True;True
+199;moyenne;basse;;printemps;False;False;False
+200;moyenne;basse;;printemps;False;False;False
+201;elevee;basse;;ete;True;True;False
+202;elevee;basse;;ete;True;True;True
+203;elevee;basse;;ete;True;True;True
+204;elevee;basse;;ete;True;True;True
+205;elevee;basse;;ete;True;True;True
+206;elevee;basse;;ete;True;True;True
+207;moyenne;elevee;pluie;automne;False;True;False
+208;moyenne;elevee;pluie;automne;True;True;False
+209;moyenne;elevee;pluie;automne;False;False;False
+210;moyenne;elevee;pluie;automne;False;False;False
+211;moyenne;elevee;pluie;automne;True;False;False
+212;moyenne;elevee;pluie;automne;False;False;False
+213;moyenne;moyenne;pluie;automne;False;False;False
+214;moyenne;moyenne;pluie;automne;True;True;False
+215;moyenne;moyenne;pluie;automne;False;False;False
+216;moyenne;moyenne;pluie;automne;False;False;False
+217;moyenne;moyenne;pluie;automne;False;False;False
+218;moyenne;moyenne;pluie;automne;False;False;False
+219;moyenne;elevee;pluie;automne;False;False;False
+220;moyenne;elevee;pluie;automne;False;False;False
+221;moyenne;elevee;pluie;automne;True;True;False
+222;moyenne;elevee;pluie;automne;True;True;True
+223;moyenne;elevee;pluie;automne;False;False;False
+224;moyenne;elevee;pluie;automne;False;False;False
+225;moyenne;elevee;pluie;;True;True;False
+226;moyenne;elevee;pluie;;True;True;False
+227;moyenne;elevee;pluie;;False;True;False
+228;moyenne;elevee;pluie;;False;True;False
+229;moyenne;elevee;pluie;;True;True;False
+230;moyenne;elevee;pluie;;False;False;False
+231;basse;elevee;pluie;hiver;False;False;False
+232;basse;elevee;pluie;hiver;False;False;False
+233;basse;elevee;pluie;hiver;True;False;False
+234;basse;elevee;pluie;hiver;False;False;False
+235;basse;elevee;pluie;hiver;False;False;False
+236;basse;elevee;pluie;hiver;False;False;False
+237;moyenne;elevee;pluie;hiver;False;False;False
+238;moyenne;elevee;pluie;hiver;False;False;False
+239;moyenne;elevee;pluie;hiver;False;False;False
+240;moyenne;elevee;pluie;hiver;False;False;False
+241;moyenne;elevee;pluie;hiver;False;False;False
+242;moyenne;elevee;pluie;hiver;False;False;False
+243;moyenne;elevee;pluie;hiver;True;True;True
+244;moyenne;elevee;pluie;hiver;True;True;True
+245;moyenne;elevee;pluie;hiver;True;True;True
+246;moyenne;elevee;pluie;hiver;False;False;False
+247;moyenne;elevee;pluie;hiver;True;True;True
+248;moyenne;elevee;pluie;hiver;True;True;True
+249;basse;elevee;pluie;hiver;False;True;True
+250;basse;elevee;pluie;hiver;False;True;True
+251;basse;elevee;pluie;hiver;False;True;True
+252;basse;elevee;pluie;hiver;True;True;True
+253;basse;elevee;pluie;hiver;True;True;True
+254;basse;elevee;pluie;hiver;False;True;True
+255;moyenne;moyenne;pluie;hiver;True;True;True
+256;moyenne;moyenne;pluie;hiver;True;True;True
+257;moyenne;moyenne;pluie;hiver;True;True;True
+258;moyenne;moyenne;pluie;hiver;False;False;False
+259;moyenne;moyenne;pluie;hiver;False;True;True
+260;moyenne;moyenne;pluie;hiver;False;True;True
+261;moyenne;basse;;hiver;False;False;True
+262;moyenne;basse;;hiver;True;True;True
+263;moyenne;basse;;hiver;True;True;True
+264;moyenne;basse;;hiver;True;True;True
+265;moyenne;basse;;hiver;True;False;True
+266;moyenne;basse;;hiver;True;True;True
+267;basse;basse;;printemps;False;False;False
+268;basse;basse;;printemps;False;False;False
+269;basse;basse;;printemps;False;False;False
+270;basse;basse;;printemps;False;False;False
+271;basse;basse;;printemps;False;False;False
+272;basse;basse;;printemps;False;False;False
+273;moyenne;basse;;printemps;False;False;False
+274;moyenne;basse;;printemps;False;False;False
+275;moyenne;basse;;printemps;False;False;False
+276;moyenne;basse;;printemps;True;True;True
+277;moyenne;basse;;printemps;True;False;False
+278;moyenne;basse;;printemps;False;False;False
+279;moyenne;basse;;printemps;False;False;False
+280;moyenne;basse;;printemps;True;True;False
+281;moyenne;basse;;printemps;False;False;False
+282;moyenne;basse;;printemps;True;True;False
+283;moyenne;basse;;printemps;False;False;False
+284;moyenne;basse;;printemps;False;False;False
+285;elevee;basse;;ete;True;True;False
+286;elevee;basse;;ete;False;False;False
+287;elevee;basse;;ete;True;True;False
+288;elevee;basse;;ete;False;False;False
+289;elevee;basse;;ete;True;True;False
+290;elevee;basse;;ete;True;True;False
+291;moyenne;elevee;pluie;ete;False;False;False
+292;moyenne;elevee;pluie;ete;False;False;False
+293;moyenne;elevee;pluie;ete;False;True;False
+294;moyenne;elevee;pluie;ete;True;True;False
+295;moyenne;elevee;pluie;ete;False;False;False
+296;moyenne;elevee;pluie;ete;False;False;False
+297;moyenne;moyenne;pluie;automne;True;True;True
+298;moyenne;moyenne;pluie;automne;False;False;False
+299;moyenne;moyenne;pluie;automne;False;False;False
+300;moyenne;moyenne;pluie;automne;False;False;False
+301;moyenne;moyenne;pluie;automne;False;False;False
+302;moyenne;moyenne;pluie;automne;False;False;True
+303;moyenne;moyenne;pas_pluie;automne;False;False;True
+304;moyenne;moyenne;pas_pluie;automne;True;True;True
+305;moyenne;moyenne;pas_pluie;automne;True;True;True
+306;moyenne;moyenne;pas_pluie;automne;True;True;True
+307;moyenne;moyenne;pas_pluie;automne;True;True;True
+308;moyenne;moyenne;pas_pluie;automne;True;True;True
+309;basse;moyenne;pluie;automne;False;False;True
+310;basse;moyenne;pluie;automne;False;False;False
+311;basse;moyenne;pluie;automne;True;False;True
+312;basse;moyenne;pluie;automne;False;False;True
+313;basse;moyenne;pluie;automne;False;False;False
+314;basse;moyenne;pluie;automne;False;False;False
+315;basse;moyenne;pluie;hiver;False;False;True
+316;basse;moyenne;pluie;hiver;False;False;False
+317;basse;moyenne;pluie;hiver;False;False;False
+318;basse;moyenne;pluie;hiver;False;False;False
+319;basse;moyenne;pluie;hiver;False;False;False
+320;basse;moyenne;pluie;hiver;False;False;False
+321;basse;basse;;hiver;True;False;True
+322;basse;basse;;hiver;True;False;False
+323;basse;basse;;hiver;False;False;False
+324;basse;basse;;hiver;True;False;False
+325;basse;basse;;hiver;True;False;True
+326;basse;basse;;hiver;True;True;False
+327;basse;elevee;pluie;hiver;False;False;False
+328;basse;elevee;pluie;hiver;False;False;False
+329;basse;elevee;pluie;hiver;True;True;True
+330;basse;elevee;pluie;hiver;True;True;False
+331;basse;elevee;pluie;hiver;True;True;True
+332;basse;elevee;pluie;hiver;False;True;False
+333;basse;moyenne;pluie;printemps;True;True;True
+334;basse;moyenne;pluie;printemps;True;True;False
+335;basse;moyenne;pluie;printemps;True;True;True
+336;basse;moyenne;pluie;printemps;True;True;True
+337;basse;moyenne;pluie;printemps;True;True;True
+338;basse;moyenne;pluie;printemps;True;True;True
+339;basse;elevee;pluie;printemps;False;True;True
+340;basse;elevee;pluie;printemps;True;True;False
+341;basse;elevee;pluie;printemps;True;True;True
+342;basse;elevee;pluie;printemps;False;False;False
+343;basse;elevee;pluie;printemps;True;True;True
+344;basse;elevee;pluie;printemps;False;False;False
+345;moyenne;basse;;printemps;False;False;False
+346;moyenne;basse;;printemps;False;False;False
+347;moyenne;basse;;printemps;False;False;False
+348;moyenne;basse;;printemps;False;False;False
+349;moyenne;basse;;printemps;False;False;False
+350;moyenne;basse;;printemps;False;False;False
+351;moyenne;moyenne;pluie;printemps;True;False;False
+352;moyenne;moyenne;pluie;printemps;True;False;False
+353;moyenne;moyenne;pluie;printemps;True;False;False
+354;moyenne;moyenne;pluie;printemps;False;False;False
+355;moyenne;moyenne;pluie;printemps;True;True;False
+356;moyenne;moyenne;pluie;printemps;False;False;False
+357;elevee;elevee;pluie;printemps;True;True;False
+358;elevee;elevee;pluie;printemps;True;True;True
+359;elevee;elevee;pluie;printemps;False;False;False
+360;elevee;elevee;pluie;printemps;False;False;True
+361;elevee;elevee;pluie;printemps;False;False;False
+362;elevee;elevee;pluie;printemps;True;True;True
+363;elevee;elevee;pluie;ete;False;False;False
+364;elevee;elevee;pluie;ete;False;False;False
+365;elevee;elevee;pluie;ete;True;True;False
+366;elevee;elevee;pluie;ete;True;True;True
+367;elevee;elevee;pluie;ete;True;True;False
+368;elevee;elevee;pluie;ete;False;False;True
+369;elevee;elevee;pluie;ete;False;False;False
+370;elevee;elevee;pluie;ete;False;False;False
+371;moyenne;basse;;ete;False;True;True
+372;moyenne;basse;;ete;False;False;False
