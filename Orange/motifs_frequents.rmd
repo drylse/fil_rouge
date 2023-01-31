@@ -41,7 +41,6 @@ plot(sort(itemFrequency(trans, type="absolute"), decreasing=TRUE),
 abline(h=413)
 ```
 
-
 ## Extraire les motifs frequents : 
 Algorithme utilisé = APRIORI
 ```{r setup, include=FALSE}
@@ -105,7 +104,7 @@ ruleExplorer(rules)
 ```
 ## test de fisher 
 ```{r}
-library(opusminer)
+
 
 #run the Fisher exact test
 results <- opusminer::fisher_exact_test(trans, itemset)
@@ -121,7 +120,6 @@ if (results$p.value < 0.05) {
 ## Algorithme OPUS Miner pour la découverte d'association top-k filtrée
 Les fichiers doivent être au format d'une liste de transactions, une ligne par transaction, chaque transaction étant une séquence d'étiquettes d'éléments. La documentation du package opusminer : https://rdrr.io/cran/opusminer/src/R/opusminer.R
 
-
 ```{r}
 frequent_itemsets <- sort(result@frequent_itemsets, by = "support", decreasing = TRUE)
 sufficient_itemsets <- frequent_itemsets[result@sufficient_sets[,2]]
@@ -129,9 +127,8 @@ print(sufficient_itemsets)
 rules <- apriori(trans, parameter = list(supp = 0.5, conf = 0.8))
 inspect(rules)
 ```
+
 ```{r}
-library("opusminer")
-library("arules")
 trans <- read_transactions("data_categorielle_opus.csv", format = "transactions")
 result <- opus(trans, print_closures = TRUE)
 inherits(result, "S4")
