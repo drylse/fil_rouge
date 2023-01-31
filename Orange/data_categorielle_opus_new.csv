@@ -1,0 +1,96 @@
+Bande;CP;Peuplement;Travail_sol_J90;Ajout_phyto_30J;Ajout_ferti_30J;Temp_quali;Pluie_quali;year;Saison
+acs;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+pn;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+elev;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+ref;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+acs;ble;ble;False;0.0;1.0;moyenne;inf a la moy;2018;printemps
+pn;ble;ble;False;0.0;1.0;moyenne;inf a la moy;2018;printemps
+bi;ble;ble;False;0.0;1.0;moyenne;inf a la moy;2018;printemps
+bio;ble;ble;False;0.0;1.0;moyenne;inf a la moy;2018;printemps
+elev;ble;ble;False;0.0;1.0;moyenne;inf a la moy;2018;printemps
+ref;ble;ble;False;0.0;1.0;moyenne;inf a la moy;2018;printemps
+acs;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+pn;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+bi;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+bio;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+elev;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+ref;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2018;printemps
+pn;ble;ble;False;1.0;1.0;moyenne;absence;2018;printemps
+bi;ble;ble;False;0.0;1.0;moyenne;absence;2018;printemps
+bio;ble;ble;False;0.0;0.0;moyenne;absence;2018;printemps
+elev;ble;ble;False;1.0;1.0;moyenne;absence;2018;printemps
+ref;ble;ble;False;1.0;1.0;moyenne;absence;2018;printemps
+pn;ble;ble;False;1.0;1.0;moyenne;sup a la moy;2018;printemps
+elev;escourgeon;sol_nu;False;0.0;1.0;moyenne;inf a la moy;2018;automne
+elev;escourgeon;escourgeon;True;1.0;1.0;elevee;absence;2018;automne
+bio;triticale;sol_nu;True;0.0;0.0;moyenne;sup a la moy;2018;automne
+bio;triticale;sol_nu;True;0.0;0.0;basse;absence;2019;hiver
+elev;escourgeon;escourgeon;False;0.0;1.0;moyenne;absence;2019;hiver
+ref;orge_de_printemps;sol_nu;True;1.0;0.0;moyenne;inf a la moy;2019;hiver
+acs;escourgeon;escourgeon;False;0.0;1.0;moyenne;sup a la moy;2019;hiver
+pn;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2019;hiver
+bio;triticale;triticale;False;0.0;1.0;moyenne;sup a la moy;2019;hiver
+ref;orge_de_printemps;sol_nu;True;1.0;0.0;moyenne;sup a la moy;2019;hiver
+acs;escourgeon;escourgeon;False;0.0;1.0;moyenne;sup a la moy;2019;hiver
+pn;ble;ble;False;0.0;1.0;moyenne;sup a la moy;2019;hiver
+bi;orge_de_printemps;orge_de_printemps;True;1.0;1.0;moyenne;sup a la moy;2019;hiver
+bio;triticale;triticale;False;0.0;1.0;moyenne;sup a la moy;2019;hiver
+ref;orge_de_printemps;orge_de_printemps;True;1.0;1.0;moyenne;sup a la moy;2019;hiver
+acs;escourgeon;escourgeon;False;0.0;1.0;moyenne;absence;2019;printemps
+bi;orge_de_printemps;orge_de_printemps;True;0.0;1.0;moyenne;absence;2019;printemps
+bio;triticale;triticale;False;0.0;1.0;moyenne;absence;2019;printemps
+pn;ble;ble;False;1.0;1.0;moyenne;inf a la moy;2019;printemps
+bi;orge_de_printemps;orge_de_printemps;True;0.0;1.0;moyenne;inf a la moy;2019;printemps
+ref;orge_de_printemps;orge_de_printemps;True;0.0;1.0;moyenne;inf a la moy;2019;printemps
+pn;ble;ble;False;1.0;1.0;moyenne;sup a la moy;2019;printemps
+bio;triticale;triticale;False;0.0;0.0;moyenne;sup a la moy;2019;printemps
+pn;ble;ble;False;1.0;1.0;moyenne;sup a la moy;2019;printemps
+ref;orge_de_printemps;orge_de_printemps;True;1.0;1.0;moyenne;sup a la moy;2019;printemps
+bio;triticale;triticale;False;0.0;0.0;moyenne;absence;2019;printemps
+pn;colza;colza;True;1.0;0.0;elevee;absence;2019;ete
+bi;colza;colza_ge._fe._le.ve._tr.;True;1.0;0.0;elevee;absence;2019;ete
+bio;feverolle;sol_nu;True;0.0;0.0;elevee;absence;2019;ete
+elev;colza;colza;True;1.0;0.0;elevee;absence;2019;ete
+ref;colza;colza_ge._fe._le.ve.;True;1.0;0.0;elevee;absence;2019;ete
+bio;feverolle;feverolle;True;0.0;0.0;moyenne;sup a la moy;2019;automne
+acs;colza;colza;False;0.0;1.0;moyenne;sup a la moy;2020;hiver
+pn;colza;colza;False;0.0;1.0;moyenne;sup a la moy;2020;hiver
+bi;colza;colza_ge._fe._le.ve._tr.;False;0.0;1.0;moyenne;sup a la moy;2020;hiver
+elev;colza;colza;False;0.0;1.0;moyenne;sup a la moy;2020;hiver
+ref;colza;colza;False;0.0;1.0;moyenne;sup a la moy;2020;hiver
+acs;colza;colza;False;0.0;1.0;basse;sup a la moy;2020;hiver
+pn;colza;colza;False;0.0;1.0;basse;sup a la moy;2020;hiver
+bi;colza;colza_ge._fe._le.ve._tr.;False;0.0;1.0;basse;sup a la moy;2020;hiver
+bio;feverolle;feverolle;False;0.0;0.0;basse;sup a la moy;2020;hiver
+elev;colza;colza;False;0.0;1.0;basse;sup a la moy;2020;hiver
+ref;colza;colza;False;0.0;1.0;basse;sup a la moy;2020;hiver
+acs;colza;colza;False;1.0;1.0;moyenne;inf a la moy;2020;hiver
+pn;colza;colza;False;1.0;1.0;moyenne;inf a la moy;2020;hiver
+bi;colza;colza;False;1.0;1.0;moyenne;inf a la moy;2020;hiver
+elev;colza;colza;False;1.0;1.0;moyenne;inf a la moy;2020;hiver
+ref;colza;colza;False;1.0;1.0;moyenne;inf a la moy;2020;hiver
+pn;colza;colza;False;1.0;1.0;moyenne;absence;2020;hiver
+bi;colza;colza;False;1.0;1.0;moyenne;absence;2020;hiver
+bio;feverolle;feverolle;True;0.0;0.0;moyenne;absence;2020;hiver
+ref;colza;colza;False;1.0;1.0;moyenne;absence;2020;hiver
+bio;feverolle;feverolle;True;0.0;0.0;moyenne;absence;2020;printemps
+acs;ble;repousse_de_colza;False;1.0;0.0;moyenne;inf a la moy;2020;automne
+pn;ble;sol_nu;True;0.0;0.0;moyenne;inf a la moy;2020;automne
+bi;ble;ble;True;1.0;0.0;moyenne;inf a la moy;2020;automne
+bio;ble;ble;True;1.0;0.0;moyenne;inf a la moy;2020;automne
+elev;ble;sol_nu;True;0.0;0.0;moyenne;inf a la moy;2020;automne
+ref;ble;sol_nu;True;0.0;0.0;moyenne;inf a la moy;2020;automne
+bi;ble;ble;False;0.0;1.0;basse;sup a la moy;2021;hiver
+elev;ble;ble;False;0.0;1.0;basse;sup a la moy;2021;hiver
+acs;ble;ble;True;0.0;1.0;basse;inf a la moy;2021;printemps
+bi;ble;ble;False;0.0;1.0;basse;inf a la moy;2021;printemps
+bio;ble;ble;True;0.0;0.0;basse;inf a la moy;2021;printemps
+elev;ble;ble;False;0.0;1.0;basse;inf a la moy;2021;printemps
+ref;ble;ble;False;0.0;1.0;basse;inf a la moy;2021;printemps
+acs;ble;ble;True;1.0;0.0;basse;sup a la moy;2021;printemps
+bi;ble;ble;False;0.0;0.0;basse;sup a la moy;2021;printemps
+elev;ble;ble;False;1.0;0.0;basse;sup a la moy;2021;printemps
+pn;ble;ble;False;1.0;0.0;elevee;sup a la moy;2021;printemps
+ref;ble;ble;False;1.0;0.0;elevee;sup a la moy;2021;printemps
+bio;ble;ble;False;0.0;0.0;elevee;sup a la moy;2021;ete
+elev;colza;colza;True;1.0;0.0;moyenne;absence;2019;ete
