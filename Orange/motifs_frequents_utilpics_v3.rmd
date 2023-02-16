@@ -1,0 +1,286 @@
+---
+title: "Motifs_frequents"
+author: "Anne-Cécile TOULEMONDE, Noemie JACQUET"
+date: "2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+### OBJECTIFS : 
+- Trouver les motifs fréquents pour les pics en se basant sur leur **support + self sufficient**
+- Faire l'analyse spécifiquement sur les pics en fonction de leur intensité (3 niveaux d'intensité définis: 1-2-3, et ici on analyse les motifs pour les pics 2 (appelés "N20 quali moyenne" et 3 appelés (N20 quali elevee"). 
+
+### Import packages
+```{r setup, include=FALSE}
+install.packages("opusminer")
+install.packages("arulesViz")
+```
+
+```{r setup, include=FALSE}
+library("opusminer")
+library("arules")
+library("ggplot2")
+library("arulesViz")
+```
+
+
+### Préparation des données et transformation du data_categorielle issu du pretraitement
+```{r setup, include=FALSE}
+setwd("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee")
+df0 <- read.csv("data_categorielle.csv", sep=";")
+#head(df0)
+df1=df0[, c(4:7,10:15,19,21,22,24,26,27,28)]
+for (i in seq(1:length(df1))) {
+  df1[,i]=as.factor( df1[,i])
+}
+str(df1)
+      
+dp23=df1[((df1$N2O_quali=="elevee")|(df1$N2O_quali=="moyenne")),]
+print(dp23)
+
+dp23_light=dp23[, c(-6,-7,-9,-10)]
+print(dp23_light)
+
+dp2=df1[(df1$N2O_quali=="moyenne"),]
+dp3=df1[(df1$N2O_quali=="elevee"),]
+dp2_light=dp2[, c(-6,-7,-9,-10)]
+dp3_light=dp3[, c(-6,-7,-9,-10)]
+
+dp123=df1[((df1$N2O_quali=="elevee")|(df1$N2O_quali=="moyenne")|(df1$N2O_quali=="basse")),]
+print(dp123)
+
+dp123_light=dp123[, c(-6,-7,-9,-10)]
+print(dp123_light)
+
+#write.table(dp23, "data_categorielle_picutil_23.csv", row.names=FALSE, sep=";")
+write.table(dp23_light, "data_categorielle_picutil_23light.csv", row.names=FALSE, sep=";")
+#write.table(dp123_light, "data_categorielle_picutil_123light.csv", row.names=FALSE, sep=";")
+
+d23_o <- read.csv("data_categorielle_picutil_23light.csv", sep=";")
+for (i in seq(1:length(d23_o))) {
+  d23_o[,i]=as.factor(d23_o[,i])
+}
+str(d23_o)
+
+d23=d23_o
+d23$CP=paste("CP", d23$CP, sep="_")
+d23$Peuplement=paste("Peuplem", d23$CP, sep="_")
+d23$Temp_quali=paste("temp", d23$Temp_quali, sep="_")
+d23$Pluie_quali=paste("pluie", d23$Pluie_quali, sep="_")
+d23$Travail_sol_J60=paste("Travail_sol60", d23$Travail_sol_J60, sep="_")
+d23$Ajout_phyto_30J=paste("Ajout_phyto_30", d23$Ajout_phyto_30J, sep="_")
+d23$Ajout_ferti_30J=paste("Ajout_ferti_30", d23$Ajout_ferti_30J, sep = "_")
+d23$soil_h1_quali=paste("soil_h1", d23$soil_h1_quali, sep = "_" )
+d23$soil_h2_quali=paste("soil_h2", d23$soil_h2_quali, sep = "_" )
+d23$N2O_quali=paste("N2O", d23$N2O_quali, sep = "_")
+head(d23)
+write.table(d23, "data23_trans.csv", row.names=FALSE, sep=";")
+d2=d23[(d23$N2O_quali=="N2O_moyenne"),]
+d3=d23[(d23$N2O_quali=="N2O_elevee"),]
+write.table(d2, "data2_trans.csv", row.names=FALSE, sep=";")
+write.table(d3, "data3_trans.csv", row.names=FALSE, sep=";")
+
+dnopic=df1[(df1$N2O_quali=="not_pic"),]
+dnopic_light=dnopic[, c(-6,-7,-9,-10)]
+write.table(dnopic_light, "data_categorielle_nopiclight.csv", row.names=FALSE, sep=";")
+print(dnopic_light)
+
+dnopic_light$CP=paste("CP", dnopic_light$CP, sep="_")
+dnopic_light$Peuplement=paste("Peuplem", dnopic_light$CP, sep="_")
+dnopic_light$Temp_quali=paste("temp", dnopic_light$Temp_quali, sep="_")
+dnopic_light$Pluie_quali=paste("pluie", dnopic_light$Pluie_quali, sep="_")
+dnopic_light$Travail_sol_J60=paste("Travail_sol60", dnopic_light$Travail_sol_J60, sep="_")
+dnopic_light$Ajout_phyto_30J=paste("Ajout_phyto_30", dnopic_light$Ajout_phyto_30J, sep="_")
+dnopic_light$Ajout_ferti_30J=paste("Ajout_ferti_30", dnopic_light$Ajout_ferti_30J, sep = "_")
+dnopic_light$soil_h1_quali=paste("soil_h1", dnopic_light$soil_h1_quali, sep = "_" )
+dnopic_light$soil_h2_quali=paste("soil_h2", dnopic_light$soil_h2_quali, sep = "_" )
+dnopic_light$N2O_quali=paste("N2O", dnopic_light$N2O_quali, sep = "_")
+head(dnopic_light)
+write.table(dnopic_light, "datanopic_trans.csv", row.names=FALSE, sep=";")
+
+
+```
+
+
+## Algorithme OPUS Miner pour la découverte d'association top-k filtrée
+Les fichiers doivent être au format d'une liste de transactions, une ligne par transaction, chaque transaction étant une séquence d'étiquettes d'éléments. La documentation du package opusminer : https://rdrr.io/cran/opusminer/src/R/opusminer.R
+
+
+### FOCUS SUR LES MOTIFS FREQUENTS (apriori)
+```{r}
+library(stringr)
+
+#df <- read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_23.csv", sep=";")
+#df <- read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_23light.csv", sep=";")
+#df <- read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_123light.csv", sep=";")
+#for (i in seq(1:length(df))) {
+  #df[,i]=as.factor(df[,i])
+#}
+#freqitems<- apriori(df, parameter = list(target = "frequent"))
+#summary(freqitems)
+#sortfreqitems=sort(freqitems, decreasing=TRUE, by="support")
+#inspect(sortfreqitems[0:100])
+#write(sortfreqitems, file="freqitdp23", sep=';')
+
+
+library(stringr)
+library(dplyr)
+f23=read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_23light.csv", sep = ";")
+fnopic=read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_nopiclight.csv", sep = ";")
+for (i in seq(1:length(f23))) {
+  f23[,i]=as.factor(f23[,i])
+}
+for (i in seq(1:length(fnopic))) {
+  fnopic[,i]=as.factor(fnopic[,i])
+}
+freqitems23<- apriori(f23, parameter = list(target = "frequent"))
+summary(freqitems23)
+sortfreqitems23=sort(freqitems23, decreasing=TRUE, by="support")
+inspect(sortfreqitems23[0:100])
+write(sortfreqitems23, file="freqitf23", sep=';')
+freqitemsnp<- apriori(fnopic, parameter = list(target = "frequent"))
+summary(freqitemsnp)
+sortfreqitemsnp=sort(freqitemsnp, decreasing=TRUE, by="support")
+inspect(sortfreqitemsnp[0:100])
+write(sortfreqitemsnp, file="freqitnopic", sep=';')
+
+f23_last <- read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/freqitf23", sep=';')
+fnopic_last <- read.csv("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/freqitnopic", sep=';')
+print(f23_last)
+f23_last$N2O_eleve = FALSE
+f23_last$N2O_moy = FALSE
+for (i in seq(1:dim(f23_last)[1])) {
+  if (str_detect(f23_last$items[i], "N2O_quali=elevee")==TRUE){f23_last$N2O_eleve[i]=TRUE}
+}
+for (i in seq(1:dim(f23_last)[1])) {
+  if (str_detect(f23_last$items[i], "N2O_quali=moyenne")==TRUE){f23_last$N2O_moy[i]=TRUE}
+}
+print(f23_last)
+f23_last$freqN2O_elev=0
+for (i in seq(1:dim(f23_last)[1])) {
+  if (f23_last$N2O_eleve[i]==TRUE) {f23_last$freqN2O_elev[i]=f23_last$count[i]/(nrow(d23[(d23$N2O_quali=="N2O_elevee"),]))}
+}
+f23_last$freqN2O_moy=0
+for (i in seq(1:dim(f23_last)[1])) {
+  if (f23_last$N2O_moy[i]==TRUE) {f23_last$freqN2O_moy[i]=f23_last$count[i]/(nrow(d23[(d23$N2O_quali=="N2O_moyenne"),]))}
+}
+print(f23_last)
+
+
+
+f23_last=f23_last[(f23_last$N2O_moy==TRUE | f23_last$N2O_eleve==TRUE),]
+f23_last=f23_last[((f23_last$freqN2O_elev>=0.10) | (f23_last$freqN2O_moy>=0.10)),]
+f23_last_anon=f23_last
+head(f23_last_anon)
+for (i in seq(1:dim(f23_last_anon)[1])) {
+  f23_last_anon$items[i]=str_replace(f23_last_anon$items[i], "N2O_quali=moyenne", "")
+  f23_last_anon$items[i]=str_replace(f23_last_anon$items[i], "N2O_quali=elevee", "")
+}
+
+f23_last_anon=f23_last_anon[order(f23_last_anon$items),]
+f23_last_anon
+f23_last_anon$commun=FALSE
+dup=duplicated(f23_last_anon$items)
+for (i in (which(dup %in% TRUE))) {
+  f23_last_anon$commun[i]="common"
+  f23_last_anon$commun[i-1]="common"
+}
+f23_last_anon
+
+write.table(f23_last_anon, file="f23_last.csv", sep=';')
+common=f23_last_anon[(f23_last_anon$commun=="common"),]
+common$rapport=0
+print(common)
+for (i in seq(from=1, to=(dim(common)[1])-1, by=2)) {
+  common$freqN2O_elev[i]=common$freqN2O_elev[i]+common$freqN2O_elev[i+1]
+  common$freqN2O_moy[i]=common$freqN2O_moy[i]+common$freqN2O_moy[i+1]
+  common$rapport[i]=(common$freqN2O_elev[i]-common$freqN2O_moy[i])/common$freqN2O_elev[i]
+  common$rapport[i+1]="delete"
+}
+common_new=common[(common$rapport!="delete"), ]
+common_new=common_new[order(-common_new$freqN2O_elev),]
+common_new
+common_new_1=common_new[(common_new$rapport>=0.4),]
+common_new_2=common_new[(common_new$rapport<0),]
+common_new_2
+write.table(common_new_1, file="common_new_1.csv", sep=';')
+write.table(common_new_2, file="common_new_2.csv", sep=';')
+
+noncommon=f23_last_anon[(f23_last_anon$commun!="common"),]
+noncommon_descfreq_piceleve=noncommon[order(-noncommon$freqN2O_elev),]
+print(noncommon_descfreq_piceleve)
+noncommon_descfreq_picmoy=noncommon[order(-noncommon$freqN2O_moy),]
+print(noncommon_descfreq_picmoy)
+write.table(noncommon_descfreq_piceleve, file="noncommon_piceleve.csv", sep=';')
+write.table(noncommon_descfreq_picmoy, file="oncommon_picmoy.csv", sep=';')
+
+```
+
+
+### FOCUS SUR LES MOTIFS FREQUENTS SELF SUFFICIENT (NON REDONDANTS ET PRODUCTIFS ++) (opus)
+
+```{r}
+#trans = read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_23.csv", sep = ";", format = "transactions") 
+#trans = read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_23light.csv", sep = ";")
+trans= read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data23_trans.csv", sep = ";")
+transnopic = read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/datanopic_trans.csv", sep = ";")
+#trans = read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data_categorielle_picutil_123light.csv", sep = ";")
+trans3=read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data3_trans.csv", sep = ";")
+trans2=read_transactions("C:/Users/jacqueno/Desktop/fil_rouge_230215/fil_rouge-main/data_pretraitee/data2_trans.csv", sep = ";")
+
+print(trans)
+
+res=opus(trans, k = 100, print_closures = FALSE, filter_itemsets = TRUE, search_by_lift = FALSE, correct_for_mult_compare = TRUE, redundancy_tests = TRUE)
+res
+write.table(res, "opus23ssf.csv", row.names=TRUE, sep=";")
+resnopic=opus(transnopic, k = 100, print_closures = FALSE, filter_itemsets = TRUE, search_by_lift = FALSE, correct_for_mult_compare = TRUE, redundancy_tests = TRUE)
+write.table(resnopic, "opusnopicssf.csv", row.names=TRUE, sep=";")
+res2=opus(trans2, k = 100, print_closures = FALSE, filter_itemsets = TRUE, search_by_lift = FALSE, correct_for_mult_compare = TRUE, redundancy_tests = TRUE)
+res2
+write.table(res2, "opus2ssf.csv", row.names=TRUE, sep=";")
+res3=opus(trans3, k = 100, print_closures = FALSE, filter_itemsets = TRUE, search_by_lift = FALSE, correct_for_mult_compare = TRUE, redundancy_tests = TRUE)
+res3
+write.table(res3, "opus3ssf.csv", row.names=TRUE, sep=";")
+
+
+
+```
+
+```{r}
+ssf23 = read.csv("opus23ssf.csv", sep=";")
+ssfnopic = read.csv("opusnopicssf.csv",sep=";")
+head(ssfnopic)
+ssf23=ssf23[ssf23$self_sufficient=="TRUE",]
+print(ssf23) 
+ssfnopic=ssfnopic[ssfnopic$self_sufficient=="TRUE",]
+inter_nopic_23=intersect(ssfnopic$itemset, ssf23$itemset)
+print(inter_nopic_23)
+for (i in inter_nopic_23){
+  for (j in seq(1:dim(ssf23)[1])) { 
+        if (ssf23$itemset[j]==i){ssf23$self_sufficient[j]="common"}
+  }
+}
+print(ssf23)
+write.table(ssf23, "selfsufficient.csv", row.names=TRUE, sep=";")
+
+ssf2=read.csv("opus2ssf.csv", sep=";")
+ssf3=read.csv("opus3ssf.csv", sep=";")
+ssf2=ssf2[ssf2$self_sufficient=="TRUE",]
+ssf3=ssf3[ssf3$self_sufficient=="TRUE",]
+inter_nopic_2=intersect(ssfnopic$itemset, ssf2$itemset)
+print(inter_nopic_2)
+for (i in inter_nopic_2){
+  for (j in seq(1:dim(ssf2)[1])) { 
+        if (ssf2$itemset[j]==i){ssf2$self_sufficient[j]="common"}
+  }
+}
+write.table(ssf2, "selfsufficientpic2.csv", row.names=TRUE, sep=";")
+inter_nopic_3=intersect(ssfnopic$itemset, ssf3$itemset)
+print(inter_nopic_3)
+for (i in inter_nopic_3){
+  for (j in seq(1:dim(ssf3)[1])) { 
+        if (ssf3$itemset[j]==i){ssf3$self_sufficient[j]="common"}
+  }
+}
+write.table(ssf3, "selfsufficientpic3.csv", row.names=TRUE, sep=";")
+```
